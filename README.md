@@ -46,7 +46,7 @@
 
 1. Al ejecutar el programa, se imprimirá la información de los vehículos creados en la consola:
 
-
+    ```bash
     Patente: AG868AL
     Marca: Audi
     Año: 2024
@@ -55,23 +55,23 @@
     Marca: Ford
     Año: 2021
     Capacidad de carga (kg): 900
-
+    ```
 
 2. Si se busca un vehículo por patente, el programa mostrará el resultado:
 
-
+    ```bash
     Vehículo encontrado:
     Patente: AE502AL
     Marca: Ford
     Año: 2021
     Capacidad de carga (kg): 900
-
+    ```
 
 3. Si no se encuentra la patente buscada:
 
-
+    ```bash
     Vehículo con patente AB756GR no encontrado.
-
+    ```
 
 ## 📌 Objetivo General
 
