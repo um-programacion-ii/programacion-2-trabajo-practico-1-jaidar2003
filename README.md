@@ -1,6 +1,78 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/-JQrLgaz)
 # 🧠 Trabajo Práctico: Sistema de Gestión de Vehículos (Java + SOLID + GitHub)
 
+# Trabajo Práctico - Programación 2
+
+## Alumno
+**Nombre:** Juan Manuel Aidar 
+
+**Legajo:** 62005
+
+---
+
+## Cómo ejecutar este proyecto:
+
+1. Clona este repositorio en tu máquina local:
+    ```bash
+    git clone https://github.com/jaidar2003/programacion-2-trabajo-practico-1.git
+    ```
+
+2. Navega al directorio del proyecto:
+    ```bash
+    cd programacion-2-trabajo-practico-1
+    ```
+
+3. Compila el proyecto usando Maven:
+    ```bash
+    mvn clean compile
+    ```
+
+4. Ejecuta el proyecto:
+    ```bash
+    mvn exec:java -Dexec.mainClass="app.Main"
+    ```
+
+---
+
+## Requisitos previos:
+
+- **Java Development Kit (JDK):** Versión 11 o superior.
+- **Maven:** Instalado y configurado en tu sistema.
+- **IDE recomendado:** IntelliJ IDEA (opcional).
+
+---
+
+## Ejemplo de uso:
+
+1. Al ejecutar el programa, se imprimirá la información de los vehículos creados en la consola:
+
+
+    Patente: AG868AL
+    Marca: Audi
+    Año: 2024
+    Capacidad de carga (kg): 1200
+    Patente: AE502AL
+    Marca: Ford
+    Año: 2021
+    Capacidad de carga (kg): 900
+
+
+2. Si se busca un vehículo por patente, el programa mostrará el resultado:
+
+
+    Vehículo encontrado:
+    Patente: AE502AL
+    Marca: Ford
+    Año: 2021
+    Capacidad de carga (kg): 900
+
+
+3. Si no se encuentra la patente buscada:
+
+
+    Vehículo con patente AB756GR no encontrado.
+
+
 ## 📌 Objetivo General
 
 Desarrollar una aplicación en Java para gestionar vehículos de una empresa, aplicando los principios de programación orientada a objetos y los **primeros tres principios SOLID**:  
